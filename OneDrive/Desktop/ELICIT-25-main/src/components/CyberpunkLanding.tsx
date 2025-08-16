@@ -337,23 +337,7 @@ const CyberpunkLanding: React.FC<CyberpunkLandingProps> = ({ onSpeakersClick, on
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: 1.2 }}
                     >
-                      <GlitchText 
-                        text="ELICIT FEST INITIATED..."
-                        className="text-4xl md:text-4xl lg:text-5xl font-mono font-bold text-green-400 mb-12"
-                        style={{
-                          textShadow: `
-                            -2px -2px 0 #000,
-                            2px -2px 0 #000,
-                            -2px 2px 0 #000,
-                            2px 2px 0 #000,
-                            0 0 10px #00ff41,
-                            0 0 20px #00ff41,
-                            0 0 30px #00ff41,
-                            4px 4px 8px rgba(0,0,0,0.8)
-                          `,
-                          filter: 'drop-shadow(4px 4px 8px rgba(0,0,0,0.9)) drop-shadow(0 0 15px #00ff41)',
-                        }}
-                      />
+                     
                     </motion.div>
                   </motion.div>
                 )}
